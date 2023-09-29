@@ -4,30 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style_login">
 </head>
-<body style="background-color: rgba(180, 230, 236, 0.979);">
-    <header>
-        <div style="background-color: rgb(34, 32, 129);">
-        <h1 style="color: rgb(255, 255, 255);width: 100%;font-size: 250%;text-align: center;">CONTENIDO</h1> 
-        </div>
-    </header>
-    <div>
-        <ul>
-            <li><a href="html/tablas.html"><h2>IR A TABLA</h2></a></li>
-            <li><a href="html/formulario.html"><h2>IR A FORMULARIO</h2></a></li>
-            <li><a href="html/agrupacion.html"><h2>IR A AGRUPACIÓN</h2></a></li>
-            <li><a href="html/multimedia.html"><h2>IR A MULTIMEDIA</h2></a></li>
-            <li><a href="html/semantica.html"><h2>IR A SEMÁNTICA</h2></a></li>
-            <li><a href="html/texto.html"><h2>IR A TEXTO</h2></a></li>
-            <li><a href="html/estilos.com"><h2>IR A ESTILOS</h2></a></li>
-            <li><a href="html/estilos.com"><h2>IR A FLEXBOX</h2></a></li>
-
-        </ul>
+<body>
+    <div class="background"></div>
+    <div class="centering">
+        <form action=""class="my_form">
+            <div class="login.welcome">
+                <img src="/multimedia/imagenes/astronauta.avif" width="20px" alt="login">
+                <h1>Iniciar Sesion</h1>
+            </div>
+            <div class="text_field">
+                <label for="email">Email</label>
+                <input type="email" id="email" aria-label="Email" placeholder="Ingrese su email" required>
+                <img src="/multimedia/imagenes/gmail.avif" width="20px" alt="Email Icon" title="Email Icon">
+            </div>
+            <div class="text_field">
+                <label for="">Password</label>
+                <input type="password" id="password" aria-label="Password" placeholder="Ingrese su contraseña" required>
+                <img src="https://icons.veryicon.com/png/o/education-technology/power-icon/password-46.png" width="20px" alt="Password Icon" title="Password Icon">
+            </div>
+            <input type="submit" class="my_form_button" value="Login">
+            <div class="my_form_actions">
+                <div class="my_form_row">
+                    <span>¿Olvidaste tu contraseña?</span>
+                    <a href="#" title="Recuperar contraseña">Recuperar contraseña</a>
+                </div>
+                <div class="my_form_signup">
+                    <a href="#" title="Crear cuenta">Crear cuenta</a>
+                </div>
+            </div>
+        </form>
     </div>
-    <footer>
-        <div style="background-color: rgb(34, 32, 129);">
-        <h3 style="color: rgb(255, 255, 255);width: 100%;font-size: 200%;text-align: center;">2023</h3> 
-        </div>
-    </footer>
 </body>
 </html>
